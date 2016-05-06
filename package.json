@@ -1,9 +1,9 @@
 {
-  "name": "template-typescript",
-  "description": "Project template.",
+  "name": "mitaqiita",
+  "description": "Tool for Qiita",
   "version": "1.0.0",
   "author": "progre",
-  "bugs": "https://github.com/progre/template-typescript/issues",
+  "bugs": "https://github.com/progre/mitaqiita/issues",
   "devDependencies": {
     "babel-eslint": "^6.0.2",
     "babel-polyfill": "^6.7.4",
@@ -43,14 +43,14 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/progre/template-typescript/",
+  "homepage": "https://github.com/progre/mitaqiita/",
   "keywords": [
     "template"
   ],
   "license": "MIT",
   "main": "lib/index.js",
   "private": true,
-  "repository": "https://github.com/progre/template-typescript.git",
+  "repository": "https://github.com/progre/mitaqiita.git",
   "scripts": {
     "build": "gulp release-build",
     "test": "gulp test:test"
