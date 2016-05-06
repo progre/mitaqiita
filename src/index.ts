@@ -15,7 +15,7 @@ async function main() {
     }
     let sorted = list
         .sort((a, b) => -(a.strength - b.strength));
-    logger.info(sorted);
+    logger.info(sorted.slice(0, 10));
 }
 
 async function getStockStrengthList(requester: Requester, page: number) {
