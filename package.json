@@ -54,5 +54,10 @@
   "scripts": {
     "build": "gulp release-build",
     "test": "gulp test:test"
+  },
+  "dependencies": {
+    "log4js": "^0.6.36",
+    "nedb": "^1.8.0",
+    "request": "^2.72.0"
   }
 }
